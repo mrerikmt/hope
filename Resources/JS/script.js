@@ -16,14 +16,14 @@ $(document).ready(function () {
   /* Scroll on buttons */
   $(".js--scroll-to-help").click(function () {
     $("html, body").animate(
-      { scrollTop: $(".js--section-help").offset().top - 50 },
+      { scrollTop: $(".js--section-help").offset().top },
       1000
     );
   });
 
   $(".js--scroll-to-start").click(function () {
     $("html, body").animate(
-      { scrollTop: $(".js--section-mission").offset().top - 50 },
+      { scrollTop: $(".js--section-mission").offset().top },
       1000
     );
   });
